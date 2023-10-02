@@ -66,3 +66,9 @@ SELECT * FROM goods
 SELECT * FROM worker
 SELECT * FROM distributor
 SELECT * FROM checks
+
+CREATE TABLE showcase (
+	id_s INT IDENTITY(1,1) PRIMARY KEY,
+	detail NVARCHAR(MAX),
+    image VARBINARY(MAX)
+);
