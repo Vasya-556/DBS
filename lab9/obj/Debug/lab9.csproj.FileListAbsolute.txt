@@ -1,0 +1,15 @@
+C:\Users\vkobr\OneDrive\Робочий стіл\SBDZ\lab9\lab9\bin\Debug\lab9.exe.config
+C:\Users\vkobr\OneDrive\Робочий стіл\SBDZ\lab9\lab9\bin\Debug\lab9.exe
+C:\Users\vkobr\OneDrive\Робочий стіл\SBDZ\lab9\lab9\bin\Debug\lab9.pdb
+C:\Users\vkobr\OneDrive\Робочий стіл\SBDZ\lab9\lab9\obj\Debug\lab9.csproj.AssemblyReference.cache
+C:\Users\vkobr\OneDrive\Робочий стіл\SBDZ\lab9\lab9\obj\Debug\lab9.SignIn_Form.resources
+C:\Users\vkobr\OneDrive\Робочий стіл\SBDZ\lab9\lab9\obj\Debug\lab9.Properties.Resources.resources
+C:\Users\vkobr\OneDrive\Робочий стіл\SBDZ\lab9\lab9\obj\Debug\lab9.SignUp_Form.resources
+C:\Users\vkobr\OneDrive\Робочий стіл\SBDZ\lab9\lab9\obj\Debug\lab9.csproj.GenerateResource.cache
+C:\Users\vkobr\OneDrive\Робочий стіл\SBDZ\lab9\lab9\obj\Debug\lab9.csproj.CoreCompileInputs.cache
+C:\Users\vkobr\OneDrive\Робочий стіл\SBDZ\lab9\lab9\obj\Debug\lab9.exe
+C:\Users\vkobr\OneDrive\Робочий стіл\SBDZ\lab9\lab9\obj\Debug\lab9.pdb
+C:\Users\vkobr\OneDrive\Робочий стіл\SBDZ\lab9\lab9\obj\Debug\lab9.Main_Form.resources
+C:\Users\vkobr\OneDrive\Робочий стіл\SBDZ\lab9\lab9\obj\Debug\lab9.Admin_Form.resources
+C:\Users\vkobr\OneDrive\Робочий стіл\SBDZ\lab9\lab9\obj\Debug\lab9.Profile_Form.resources
+C:\Users\vkobr\OneDrive\Робочий стіл\SBDZ\lab9\lab9\obj\Debug\lab9.Working_Form.resources
