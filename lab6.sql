@@ -62,3 +62,42 @@ INSERT INTO Customers (first_name, last_name, email)
 VALUES ('John', 'Doe', 'john.doe@example.com'),
        ('Jane', 'Smith', 'jane.smith@example.com');
 
+
+CREATE PROCEDURE DeleteProduct
+    @ProductName NVARCHAR(255)
+AS
+BEGIN
+    DELETE FROM Products
+    WHERE name = @ProductName;
+END;
+
+
+
+CREATE PROCEDURE AddProduct
+    @ProductName NVARCHAR(255)
+AS
+BEGIN
+    SELECT * 
+    FROM Products
+    WHERE name = @ProductName;
+
+    DECLARE @CategoryID INT;
+    SELECT TOP 1 @CategoryID = category_id
+    FROM Categories
+    ORDER BY NEWID(); 
+
+    DECLARE @SupplierID INT;
+    SELECT TOP 1 @SupplierID = supplier_id
+    FROM Suppliers
+    ORDER BY NEWID(); 
+
+    DECLARE @Price DECIMAL(10, 2) = RAND() * 100;
+
+    INSERT INTO Products (name, price, category_id, supplier_id)
+    VALUES (@ProductName, @Price, @CategoryID, @SupplierID);
+END;
+
+SELECT * FROM Products
+
+EXEC DeleteProduct @ProductName = 'new';
+EXEC AddProduct @ProductName = 'new';
